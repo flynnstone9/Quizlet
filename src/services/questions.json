@@ -1,0 +1,98 @@
+{
+	"questions": [
+		{
+			"question": "The fans on your MacBook (2015) run nonstop, and you think you might need to reset the SMC. What should you try first?",
+			"options": [
+				{
+					"answer": "Hold down the power button until the MacBook shuts down. Then, press the power button again to restart your Mac.",
+					"feedback": "Correct! According to knowledge base article HT201295, if your Mac is unresponsive, you should try forcing it to shut down as the first troubleshooting step.",
+					"key": 1
+				},
+				{
+					"answer": "Shut down your Mac by choosing Shut Down from the Apple menu. Then, press the power button to restart your Mac.",
+					"feedback": "If your Mac is not responding, you shouldn't be able to choose Shut Down from the Apple menu.",
+					"key": 2
+				},
+				{
+					"answer": "After your Mac shuts down, press the power button and Shift-Control-Option on the left side of the built-in keyboard at the same time.",
+					"feedback": "Consider other troubleshooting steps before resetting the SMC.",
+					"key": 3
+				}
+			],
+			"correctAnswer": 1
+		},
+		{
+			"question": "Which symptom does NOT indicate that resetting the SMC is necessary?",
+			"options": [
+				{
+					"answer": "Your computer's fans run at high speed, even though the computer isn't under heavy usage and is properly ventilated.",
+					"feedback": "Incorrect. Fans running at high speed might indicate that resetting the SMC is necessary.",
+					"key": 1
+				},
+				{
+					"answer": "The MagSafe power adapter LED doesn't indicate the correct charging activity.",
+					"feedback": "Incorrect. Charging-light indicator status might indicate that resetting the SMC is necessary.",
+					"key": 2
+				},
+				{
+					"answer": "A Mac that supports target display mode doesn't enter or exit target display mode as expected, or enters or exits target display mode at unexpected times.",
+					"feedback": "Incorrect. Unexpected target display mode behavior might indicate that resetting the SMC is necessary.",
+					"key": 3
+				},
+				{
+					"answer": "Your Mac displays a folder with a question mark at startup, even after you attempt to start the Mac in safe mode.",
+					"feedback": "Correct! A Mac displaying a folder with a question mark at startup does not indicate a need to reset the SMC.",
+					"key": 4
+				}
+			],
+			"correctAnswer": 4
+		},
+		{
+			"question": "A customer calls and says, \"Hi, my name is Jayden. I'm having trouble with my iMac. Notes takes an incredibly long time to open. I'm very frustrated. Can you help me?\" How do you respond?",
+			"options": [
+				{
+					"answer": "\"I'd be happy to help, Jayden. The first thing I'd like to do is attempt to reset the SMC.\"",
+					"feedback": "Consider resetting the SMC only after you fully troubleshoot an issue and determine that the SMC is the most likely cause.",
+					"key": 1
+				},
+				{
+					"answer": "\"I can help you, Jayden. I use Notes all the time and would be lost without it. Does the issue happen only with Notes or with other apps too?\"",
+					"feedback": "Determining whether Jayden's issue affects all apps is an excellent isolation step.",
+					"key": 2
+				},
+				{
+					"answer": "\"Oh no! I understand how frustrating your issue can be, Jayden. Have you tried to reset the NVRAM?\"",
+					"feedback": "Resetting the NVRAM is not a valid isolation step.",
+					"key": 3
+				},
+				{
+					"answer": "\"I'd be happy to help, Jayden. I understand how frustrating your issue can be. Are you near a retail Apple Store?\"",
+					"feedback": "Proximity to a retail Apple Store is not relevant to the troubleshooting process.",
+					"key": 4
+				}
+			],
+			"correctAnswer": 2
+		},
+		{
+			"question": "Later in the call, Jayden says, \"We verified that I have plenty of disk space, no available updates, and restarted in safe mode, but Notes is still opening very slowly! What can I do?\" How do you respond?",
+			"options": [
+				{
+					"answer": "\"Let's try to reset the SMC.\"",
+					"feedback": "Reseting the SMC is an appropriate step to take.",
+					"key": 1
+				},
+				{
+					"answer": "\"Are you near a retail Apple Store?\"",
+					"feedback": "Proximity to a retail Apple Store is not relevant to the troubleshooting process.",
+					"key": 2
+				},
+				{
+					"answer": "\"Your issue qualifies for a repair.\"",
+					"feedback": "The prior isloation steps have determined that this is not a hardware-related issue.",
+					"key": 3
+				}
+			],
+			"correctAnswer": 1
+		}
+	]
+}

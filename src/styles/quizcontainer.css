@@ -1,0 +1,106 @@
+.quiz__quizContainer {
+	display: flex;
+	flex-direction: column;
+	background-color: var(--color-white);
+	border-radius: 3px;
+	padding: 20px;
+	/* box-shadow: rgba(0, 0, 0, 0.12) 0px 8px 24px; */
+}
+
+.quiz__question {
+	color: var(--second-font-color);
+	font-size: 1.2rem;
+	background-color: var(--third-accent-color);
+	color: var(--color-white);
+	margin: 0px 0px 20px;
+	padding: 25px;
+	justify-self: flex-start;
+	border-radius: 8px;
+}
+
+.quiz__questionTitle {
+	font-size: 0.7rem;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: var(--second-accent-color);
+	margin-bottom: 15px;
+}
+
+.quiz__input[type='radio'] {
+	visibility: hidden;
+	height: 100%;
+}
+
+.quiz__input[type='radio']:checked {
+	visibility: hidden;
+}
+
+.quiz__label {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	min-height: 100px;
+	cursor: pointer;
+}
+
+.quiz__label--clicked {
+	cursor: default;
+}
+
+.quiz__option {
+	background: var(--color-white);
+	border: 1px solid rgb(231, 235, 238);
+	position: relative;
+	z-index: 0;
+	transition: 0.5s ease;
+}
+
+.quiz__option:hover {
+	box-shadow: rgba(0, 0, 0, 0.12) 0px 8px 24px;
+	z-index: 1;
+}
+
+.quiz__option--clickedRight {
+	background: var(--main-accent-color);
+	color: var(--color-white);
+}
+
+.quiz__option--clickedRight:hover {
+	background: var(--main-accent-color);
+}
+
+.quiz__option--clickedWrong {
+	background: var(--main-bg-color);
+	color: var(--disable-font-color);
+}
+
+.quiz__option--clickedWrong:hover {
+	background: var(--main-bg-color);
+	color: var(--disable-font-color);
+	box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px;
+	z-index: 1;
+}
+
+.quiz__optionText {
+	padding: 5px 25px;
+}
+
+.quiz__optionFeedback {
+	display: none;
+	opacity: 0;
+	/* padding: 5px 25px; */
+	font-size: 0.9rem;
+}
+
+.quiz__optionFeedback--active {
+	display: inline-block;
+	opacity: 1;
+	padding: 5px 25px 15px;
+	color: var(--third-bg-color);
+}
+
+.quiz__optionFeedback--activeCorrect {
+	color: var(--second-bg-color);
+	opacity: 0.8;
+}

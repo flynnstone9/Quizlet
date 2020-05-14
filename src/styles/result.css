@@ -1,0 +1,32 @@
+.result__container {
+	min-height: 300px;
+	background: var(--color-white);
+	color: var(--color-white);
+	border-radius: 8px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.result__title {
+	font-weight: 600;
+	font-size: 1.3rem;
+	margin: 15px;
+	color: var(--second-font-color);
+	text-align: center;
+	max-width: 300px;
+}
+
+.result__nextsteps {
+	font-size: 1rem;
+	color: var(--main-font-color);
+	text-align: center;
+}
+
+@media (min-width: 768px) {
+	.result__title {
+		max-width: 500px;
+		border-bottom: 1px solid var(--second-font-color);
+	}
+}
