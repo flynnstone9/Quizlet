@@ -1,10 +1,13 @@
 ## React Generic Quiz
 
-A Quiz built with React. Change the questions.json file to add or remove questions. The frontend supports as many questions as you want based on the JSON file.
+A Quiz built with React.
+Change the **questions.json** file to add or remove questions.
 
-The focus of this project was to build a clean frontend design that could scale based on the JSON file provided.
+The focus of this project was to build a "on brand" frontend design that could scale based on the JSON file provided.
 
-Hosted on Firebase:
+No CSS libraries were used. Branding was used to guide design decisions.
+
+**Hosted on Firebase:**
 [Live Project Demo](https://apple-quizlet.web.app/).
 
 <!-- ## Further Build Ideas
