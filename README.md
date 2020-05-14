@@ -3,12 +3,11 @@
 A Quiz built with React.<br/>
 Change the **questions.json** file to add or remove questions.<br/>
 
-The focus of this project was to build a "on brand" frontend design that could scale based on the JSON file provided.<br/>
+> The focus of this project was to build a "on brand" frontend design that could scale based on the JSON file provided.
+> No CSS libraries were used.
+> Branding was used to guide design decisions.
 
-No CSS libraries were used.<br/>
-Branding was used to guide design decisions.<br/>
-
-**Hosted on Firebase:**
+**Hosted on Firebase:**<br/>
 [Live Project Demo](https://apple-quizlet.web.app/).
 
 <!-- ## Further Build Ideas
